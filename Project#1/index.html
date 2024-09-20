@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width+device-width, initial-scale=1.0">
+        <title>myresume.com</title>
+        <link rel="stylesheet" href="style.css">
+        
+        <style>
+
+        /* <!-- abousdscp description is hidden with the use of display:none; --> */
+            #aboutdiscription {
+                display: none;
+            }
+            </style>
+
+        
+         <!-- When-hover paragraph is hidden.This tells the "Thank you so much " statement.  -->
+         
+         <style>
+            #hover{
+                display:none;
+            }
+        </style>
+
+        <!-- /* #explain is hidding which talks about the "A passionate candidate quote." */ -->
+       
+          <style>
+            #explain{
+                display:none;
+            }
+          </style>
+
+        <!-- /* #edudscp is hidden. when we execute code in js it will pop up. */ -->
+       <style>
+        #edudiscription{
+            display:none;
+        }
+       </style>
+       <style>
+        /* This section is to hide the discription written inside  p element that is located under work button. */
+        #workdiscription{
+            display:none;
+        }
+       </style>
+        
+        <!-- This section is to hide the discription written inside p element that is located under project button. -->
+        <style>
+            #pjdiscription{
+                display:none;
+            }
+        </style>
+    
+    </head>
+    <body>
+         <!-- This section is for the first animation part.  -->
+        
+        <div class="first">
+
+         <div><h1 id="welcome">Welcome to my Resume <p id="hover">Thank you so much for visiting my Website.</p></h1></div>
+        
+
+        </div>
+         <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="addressnnemail">
+        <div><p id="address">3400 N Wesleyan Blvd, Rocky Mount, NC</p></div>
+        <div><a href="yubrajbh12@gmail.com" target="_blank"id="email">yubrajbh12@gmail.com</a></div>
+        </div>
+         
+        <!--This section for the link -->
+        <div class="merolink">
+            <div ><p><img src="profile.jpg" class="photo"></p></div>
+            <div class="merolink1">
+            <div><a href ="https://github.com/yubrajbh12" target="_blank"><img src="github.png" class="gitimg"></a></div>
+            <div><a href="https://www.linkedin.com/in/yubraj-bhandari-61b789316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " target="_blank" class="top-right">
+            <img src="linkedin.webp" class="img"></a></div>
+        </div>
+       </div>
+            
+            
+        
+      
+      <h1 id="heading" class="heading-name">YUBRAJ BHANDARI<p id="explain">A Passionate and hard working candidate seeking for an IT job.</p></h1> 
+     
+     
+      <br>
+      <br>
+      <br>
+        
+        
+        
+        <!-- to align all the heading in the same line -->
+        <div class="container">
+            <div class="box" id="about" >
+                <button  type='button' class="button" id="aboutselection" >About</button>
+                <p id="aboutdiscription">
+                    
+                    
+                    My name is Yubraj Bhandari, and I am an international student from Nepal, currently a sophomore majoring in Computer Science. I began coding after high school and have since developed strong skills in both backend and frontend technologies.
+                    
+                    On the backend, I have a solid understanding of Python and C++. For the frontend, I am proficient in HTML, CSS, and JavaScript. Additionally, I possess soft skills in areas such as Active Directory management, Ethernet terminations, StickyMac (providing internet access to specific users for the security purpose.), as well as proficiency in Microsoft Word and Excel.
+                    
+                    Outside of academics, I am passionate about music and have a strong interest in fitness.
+                     </p>
+            </div>
+            <br>
+            <div class="box" id="edu" >
+                <button   type='button' class="button" id="eduselection">Education</button>
+                    <p id="edudiscription">I completed my high school education in the capital city of my home country. Subsequently, I attended Little Angels' College of Management, a well-respected institution, where I graduated in May 2022 with a GPA of 3.45.
+                      
+In August 2023, I commenced my bachelor’s degree at North Carolina Wesleyan University, majoring in Computer Science. I am currently enrolled in an honors program, where I have maintained a cumulative GPA of 3.95 and have been recognized on the President's Honor List.
+
+In addition to my academic pursuits, I am actively involved in extracurricular activities. During my first semester as a sophomore, I, along with nine colleagues, had the privilege of welcoming over 70 new international students from various countries. We dedicated ourselves to assisting them in every possible way to ensure they felt at home at the university.  
+                    </p>
+            </div>
+            <br>
+            <div class="box" id="work" >
+                <button  class="button" id="workselection" >Work Expereience</button>
+                <p id="workdiscription">I currently serve as a Help Desk Technician in the IT Department at North Carolina Wesleyan University, a position I have held since April 2024 in Rocky Mount, NC. In this role, I manage and utilize Active Directory to support faculty members, students, and alumni with password-related issues, providing assistance with recovery and resets. Additionally, I have gained valuable experience in implementing Sticky MAC for Network Access Control, which involves configuring network access to grant internet connectivity to specific users through designated ports. This position has enhanced my technical skills and reinforced my commitment to delivering exceptional support within the university community.</p>
+            </div>
+            <br>
+            <div class="box" id="proj" >
+                <button class="button" id="pjselection" >Projects</button>
+                <p id="pjdiscription">I successfully developed a personal resume website utilizing HTML, CSS, and JavaScript. This website provides a comprehensive overview of my background, featuring a structured layout with distinct sections for my biography, skills, education, and projects. It incorporates functional links and buttons that execute JavaScript code for enhanced interactivity. For deployment, I utilized an external application called Netlify, ensuring that my website is accessible and well-presented to visitors. This project has allowed me to refine my web development skills while effectively showcasing my professional profile.</p>
+            </div>
+        
+        </div>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

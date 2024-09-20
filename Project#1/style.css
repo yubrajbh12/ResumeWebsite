@@ -1,0 +1,301 @@
+.container{
+    text-align: center;
+}
+
+body{
+    background-color:#e8def3;
+}
+/* This is for the animation of "Welcome to my Resume */
+#welcome{
+    position:fixed;
+    top:-2px;
+    left:0;
+    margin-top:2px;
+    
+    z-index:1000;
+    padding:10px;
+
+    font-style:bold;
+    font-size:40px;
+    
+    background-color:white;
+    color:black;
+    height:100px;
+    width:100%;
+    
+   
+    
+    
+    border-radius:5px;
+    
+    text-shadow:3px 3px 3px pink, 4px 4px 5px skyblue;
+    box-shadow:2px 2px 5px darkgrey, 3px 3px 5px  #a3a9aa;
+    
+ 
+
+   
+}
+
+
+
+#welcome:hover{
+    width:100%;
+    height:150px;
+   
+    
+
+    
+    background-color:darkgrey;
+    
+    
+}
+#when-hover{
+    text-shadow:#C4CBCA;
+}
+#email{
+    font-size:10px solid black;
+    position:absolute;
+}
+
+/* This section is for the address  and email section.  */
+.addressnnemail{
+    display:flex;
+    flex-direction:row-reverse;
+    
+
+
+}
+
+ #email{
+    color:black;
+    
+    margin-top:40px;
+    margin-left:50px;
+    
+    
+ }
+
+/*This is to do put the linkedin link at the top right cornor.  */
+
+.merolink{
+    display:flex;
+    justify-content: space-between;
+
+    
+}
+.merolink1{
+    display:flex;
+    justify-content:space-evenly;
+    margin-right:-20px;
+    margin-top:30px;
+
+}
+.photo{
+    height:250px;
+    width:150px;
+    border-radius:20px;
+    margin-left:65px;
+    margin-top:65px;
+    
+    
+    
+}
+
+
+
+.img{
+   
+    height:200px;
+    width:200px;
+    
+}
+
+
+.gitimg{
+    
+    height:100px;
+    width:100px;
+    margin-left:50px;
+    margin-top:50px;
+}
+/*This is for making all the button pretty with the use of hover effect and italic font style.  */
+  
+.button{
+    font-style:bold;
+    border-radius:10px;
+    padding:2.5px;
+    font-size:15px;
+    
+
+  
+} 
+
+.button:hover{
+    text-shadow:2.5px 2.5px 5px red, 3px 3px 6px green;
+    box-shadow:0px 1.5px 2.5px darkred, 1px 2.5px 2px green;
+    padding:10px;
+    font-style:italic;
+    background-color: black;
+    color:white;
+    
+ 
+    
+}
+
+/* This section is for the photo and the name of the person with the use of flex box */
+
+/* .name{
+    display:flex;
+    flex-direction:column;
+    
+    
+} */
+
+
+.heading-name{
+    text-shadow: 4px 4px 5px #3b6e78;
+    
+}
+.heading-name:hover{
+    box-shadow: 3px 3px 3px darkgrey, 4px 5px 10px skyblue;
+    
+
+}
+
+
+
+
+
+ 
+
+#heading{
+    text-align:start;
+    color:dark black;
+    
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-style:bold;
+    font-size:30px;
+    text-align:center;
+}
+
+
+
+
+/* All of these are for the button that are listed below with the pretty effects. */
+
+#about{
+    background:linear-gradient(to left ,pink, skyblue);
+  border-radius:70px solid black;
+   
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+#edu{
+    background:linear-gradient(to left ,pink, skyblue);
+ 
+   
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+#work{
+    background:linear-gradient(to left, pink , skyblue);
+  
+   
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#proj{
+    background:linear-gradient(to left ,pink, skyblue);
+  
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* This section for an about buttons when you click that option it's goona show 
+some effects and it's goona also work for the text that shows up beneath the button.*/
+
+
+#aboutselection{
+    cursor:pointer;
+    font-size:20px;
+
+
+}
+#aboutdiscription{
+height:250px;
+width:auto;
+font-size:15px;
+font-style:bold;
+text-align:center;
+padding:40px;
+
+
+
+}
+
+
+/* This section is for the button named Education */
+
+#eduselection{
+    cursor:pointer;
+    font-size:20px;
+}
+
+
+#edudiscription{
+    height:300px;
+    width:auto;
+    color:solid black;
+    text-align:center;
+    padding:40px;
+   
+   
+   
+}
+/* This section is for the button named Work Experience */
+
+#workselection{
+    cursor:pointer;
+    font-size:20px;
+
+}
+
+#workdiscription{
+    height:275px;
+    width:auto;
+    color:solid black;
+    text-align:center;
+    padding:40px;
+}
+
+
+/* This section is for the button named Projects. */
+#pjselection{
+    cursor:pointer;
+    font-size:20px;
+
+}
+
+#pjdiscription{
+    height:275px;
+    width:auto;
+    color:solid black;
+    text-align:center;
+    padding:40px;
+}
+
+/* This section is for the coloring and painting for the text from p element. */
+.backend{
+    color: red;
+}
+/* This section is for the coloring and painting for the text from p element. */
+.frontend{
+    color:purple;
+}
+
+
+
+
+
